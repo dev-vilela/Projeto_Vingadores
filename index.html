@@ -5,64 +5,269 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Paulo Vilela">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagem/favicon-avengers.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="imagem/favicon.io.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
     
     <title>Avengers -- Demo</title>
 </head>
+
 <body>
-    <div>
-        <header>
+    <div class="tabs">
+        <header class="container">
             <section>
                 <h1>
-                    <img src="imagem/background-avengers.jpg" alt="Imagem dos Vingadores">
+                    <img id="aven-background" src="imagem/background-avengers.jpg" alt="Imagem dos Vingadores">
+                    
                 </h1>
+                <h3><p>por Ramon Gomes</p></h3>
             </section>
-            <section>
+            <section class="container-flex">
                 <nav>
                     <h2>
-                        
+                        <a href="#"><img class="logo" src="imagem/Avengers-logo.png" alt="Imagem logo Avengers"></a>
                      
                     </h2>
-                    <ul>
-                        <li><a href="#stark">Homem de Ferro</a></li>
-                        <li><a href="#capitao">Capitão America</a></li>
-                        <li><a href="#thanos">Thanos</a></li>
-                        <li><a href="#hulk">Hulk</a></li>
-                        <li><a href="#viuvanegra">Viúva Negra</a></li>
-                        <li><a href="#thor">Thor</a></li>
-                        <li><a href="#wanda">Wanda</a></li>
+                    <ul class="nav-lista">
+                        <li class="personagem"><a href="#stark">Homem de Ferro</a></li>
+                        <li class="personagem"><a href="#capitao">Capitão America</a></li>
+                        <li class="personagem"><a href="#hulk">Hulk</a></li>
+                        <li class="personagem"><a href="#viuvanegra">Viúva Negra</a></li>
+                        <li class="personagem"><a href="#thor">Thor</a></li>
+                        <li class="personagem"><a href="#wanda">Wanda</a></li>
+                       <!--- <li><a href="#thanos">Thanos</a></li> -->
                     </ul>
                 </nav>
             </section>
         </header>
-        <main>
-            <section>
-                <div >
-                    <img src="imagem/Card-TonyStark.jpg" alt="Imagem do Homem de Ferro">
-                </div>
-
-                <div>
-                    <div>
-                        <h1>Personagem: Homem de Ferro</h1>
+        <main class="container">
+             <!-- Homem de Ferro 01 -->
+            <section class="corpo-personagens" id="stark">
+               
+                <div class="container-flex">
+                    <div class="card-personagem">
+                        <img class="card-img" src="imagem/Card-TonyStark.jpg" alt="Imagem do  Homem de ferro">
                     </div>
-                    <div>
-                        <h2>Ator: Robert Downey Jr.</h2>
-                    </div>
-                    <div>
-                        <p>
-                            Gênio, bilionário, playboy, filantropo, Tony Stark agora financia o dream team de
-                            super-heróis
-                            para
-                            que eles continuem protegendo o mundo após o fim da S.H.I.E.L.D.
-                            Seu traje possui vários aspectos tecnológicos. A armadura é a testemunha da genialidade
-                            de seu
-                            criador Tony Stark.
-                        </p>
-                    </div>
+                    <div class="container-flex-son">
+                        <div class="persona">
+                            <h1>Personagem: Homem de Ferro</h1>
+                        </div>
+                        <div class="ator">
+                            <h2>Ator: Robert Downey Jr.</h2>
+                        </div>
+                        <div class="sobre">
+                            <p>
+                                Gênio, bilionário, playboy, filantropo, Tony Stark agora financia o dream team de
+                                super-heróis
+                                para
+                                que eles continuem protegendo o mundo após o fim da S.H.I.E.L.D.
+                                Seu traje possui vários aspectos tecnológicos. A armadura é a testemunha da genialidade
+                                de seu
+                                criador Tony Stark.
+                            </p>
+                            <p>
+                                Seu traje possui vários aspectos tecnológicos. A armadura é a testemunha da genialidade
+                                de seu
+                                criador
+                                Tony Stark.
+                            </p>
+                            <p>
+                                A parte interior é revestida de titânio com ouro, sendo enriquecida por um campo
+                                magnético.
+                                Geralmente, ela é guardada dentro da sala executiva de Stark, num compartimento secreto.
+                                Possui
+                                diversos equipamentos como um sofisticado sistema de navegação, o Jarvis (é claro),
+                                sensores e
+                                scaners diversos, sistemas de projeção de imagens holográficos, sonar, flaps, lasers,
+                                pequenos
+                                projeteis (teleguiados ou não), emissores de pulso eletromagnéticos, disruptor sônico,
+                                entre
+                                muitos
+                                outros apetrechos.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
-        </main>
-    </div>
+
+            <!-- Capitão América 02 -->
+            <section class="corpo-personagens" id="capitao">
+                <div class="container-flex">
+                    <div class="card-personagem">
+                        <img class="card-img" src="imagem/Card-CapitaoAmerica.jpg"
+                            alt="Imagem do Capitão América">
+                    </div>
+                    <div class="container-flex-son">
+                        <div class="persona">
+                            <h1>Personagem: Capitão América</h1>
+                        </div>
+                        <div class="ator">
+                            <h2>Ator: Chris Evans</h2>
+                        </div>
+                        <div class="sobre">
+                            <p>
+                                Steve Rogers agora é capitão de vez. O Capitão América assumiu a liderança dos
+                                Vingadores, mas continua tentando se acostumar com o mundo moderno.
+                            </p>
+                            <p>
+                                A única arma do Capitão América é o escudo, usado para defesa e também ataque, quando
+                                então funciona como um bumerangue. Seu uniforme é feito de kevlar, que é um material
+                                resistente ao fogo e a perfurações, e sob seu uniforme ainda existe uma cota de malha de
+                                titânio leve, para proteção adicional.
+                            </p>
+                            <p>
+                                Steve também é considerado um líder eficaz, liderou vários grupos de heróis durante sua
+                                carreira heróica, por ser um ex-militar, ele é um grande estrategista perito em táticas
+                                de guerrilha e algumas armas de fogo. Rogers também possui uma grande inteligência, o
+                                que ajuda muito em seus planos de combate. Também é treinado em todas as formas de artes
+                                marciais, sendo um mestre em combate corpo-a-corpo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- Hulk 03 -->
+            <section class="corpo-personagens" id="hulk">
+                <div class="container-flex">
+                    <div class="card-personagem">
+                        <img class="card-img" src="imagem/Card-Hulk.jpg" alt="Imagem do Hulk">
+                    </div>
+                    <div class="container-flex-son">
+                        <div class="persona">
+                            <h1>Personagem: Hulk</h1>
+                        </div>
+                        <div class="ator">
+                            <h2>Ator: Mark Ruffalo</h2>
+                        </div>
+                        <div class="sobre">
+                            <p>
+                                A arma já não muito secreta dos Vingadores está cada vez mais habituada ao seu verdadeiro
+                                eu, embora esteja submetido a protocolos surpreendentes para que não saia de si.
+                            </p>
+                            <p>
+                                Quanto mais bravo, mais forte o Hulk fica.
+                            </p>
+                            <p>
+                                Sua força cresce após o aumento de adrenalina no seu sistema circulatório. Nos
+                                quadrinhos, ele foi capaz de destruir um asteroide com duas vezes o tamanho da Terra, um
+                                de seus feitos mais famosos foi em Guerras Secretas onde ele consegue segurar uma
+                                montanha de 150 bilhões de toneladas jogada sobre ele pelo Homem Molecular, ele também
+                                conseguiu juntar as placas tectônicas do Planeta Sakaar sob altas temperaturas na saga
+                                Planeta Hulk.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+            <!-- Viúva Negra 04 -->
+            <section class="corpo-personagens" id="viuvanegra">
+                <div class="container-flex">
+                    <div class="card-personagem">
+                        <img class="card-img" src="imagem/Card-ViuvaNegra.jpg" alt="Imagem da Viuva Negra">
+                    </div>
+                    <div class="container-flex-son">
+                        <div class="persona">
+                            <h1>Personagem: Viúva Negra</h1>
+                        </div>
+                        <div class="ator">
+                            <h2>Ator: Scarlett Johansson</h2>
+                        </div>
+                        <div class="sobre">
+                            <p>
+                                Natasha Romanoff continua usando sua inteligência, seus recursos e sua capacidade letal
+                                de lutar para compensar a falta de super-poderes.
+                            </p>
+                            <p>
+                                Natasha é uma especialista no campo de artes marciais. Ela é proficiente em sambo, boxe,
+                                kickboxing, karatê, judo, jiu-jitsu, aikido, hapkido, taekwondo, ninjútsu, krav maga,
+                                savate, muay thai e múltiplos estilos de kung fu.
+                            </p>
+                            <p>
+                                A inteligência de Natasha é nível 3, colocando ela em par com Steve Rogers.[52] Ela
+                                possui a habilidade de processar rapidamente múltiplas informações (como avaliar uma
+                                ameaça) e rapidamente responder a mudanças de táticas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+            <!-- Thor 05 -->
+            <section class="corpo-personagens" id="thor">
+                <div class="container-flex">
+                    <div class="card-personagem">
+                        <img class="card-img" src="imagem/Card-Thor.jpg" alt="Imagem do Thor">
+                    </div>
+                    <div class="container-flex-son">
+                        <div class="persona">
+                            <h1>Personagem: Thor</h1>
+                        </div>
+                        <div class="ator">
+                            <h2>Ator: Chris Hemsworth</h2>
+                        </div>
+                        <div class="sobre">
+                            <p>
+                                O Deus do Trovão de Asgard decidiu ficar na Terra. Mais ousado, mais poderoso e mais
+                                habituado ao novo planeta (até roupa de humano ele usa!), Thor é a bússola moral dos
+                                Vingadores, alertando para as grandes ameaças que vêm pela frente, enquanto continua na
+                                sua busca pessoal para descobrir a identidade do aliado secreto de seu irmão, o vilão
+                                Loki.
+                            </p>
+                            <p>
+                                Thor é conhecido por ser o mais forte entre os asgardianos, capaz de erguer sem esforço
+                                objetos que pesam milhões de toneladas como até montanhas, a força dele é tão grande que
+                                pôde até mesmo girar a árvore Yggdrasil em sentido contrário.
+                            </p>
+                            <p>
+                                A resistência de Thor é tão grande que o deixa invulnerável a ataques de energia, fogo e
+                                frio estremos, tiros de Grosso calibre, bombas atômicas e ataques da manifestação da
+                                fênix.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!----Feiticeira Escarlate 06-->
+             <section class="corpo-personagens" id="wanda">
+                <div class="container-flex" id="wd">
+                    <div class="card-personagem">
+                        <img class="card-img" src="imagem/wanda.jpg" width="400px" alt="Imagem da Wanda">
+                    </div>
+                    <div class="container-flex-son">
+                        <div class="persona">
+                            <h1>Personagem: Feiticeira Escarlate</h1>
+                        </div>
+                        <div class="ator">
+                            <h2>Ator:  Elizabeth Olsen</h2>
+                        </div>
+                        <div class="sobre">
+                            <p>
+                                <a href="https://universocinematograficomarvel.fandom.com/pt-br/wiki/Feiticeira_Escarlate">Wanda Maximoff</a>, também conhecida como a Feiticeira Escarlate, é uma nativa de Sokovia que cresceu com seu irmão gêmeo, Pietro. Nascida com a capacidade mágica latente de dominar a Magia do Caos, ela desenvolveu um ódio contra Tony Stark e se juntou a protestos anti-americanos após os atentados de Novi Grad, que mataram seus pais.
+                            </p>
+                            <p>
+                                Magia de probabilidade; Alteração da realidade
+                            </p>
+                            <p>
+                                Uma vez que aprendeu sobre o Multiverso, Maximoxx acreditou que a única forma de ver seus filhos novamente era achar eles em um universo diferente. Em sua missão brutal de roubar os poderes de viagem multiversal de uma adolescente chamada America Chavez, Wanda entra em desacordo com seu ex-aliado Doutor Estranho, e atacou impiedosamente os Mestres das Artes Místicas, bem como um grupo de indivíduos superpoderosos de outro universo conhecidos como os Illuminati, este último através de uma Wanda Maximoff alternativa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+      
+
+    <footer class="rodape">
+        <section>
+            <a href="#"><img class="logo" src="imagem/Avengers-logo.png" alt="Imagem dos Vingadores"></a>
+        </section>
+        <p>Copyright &COPY; 2022 - by Paulo Vilela</p>
+        <a href="https://www.instagram.com/paulovilela234/" target="_blank" class="externo">Instagram</a>  |
+        <a href="https://www.youtube.com/channel/UC6tbdya3tYCKAWYHDg3mumA" target="_blank" class="externo">YouTube</a>
+    </footer>
+    <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
 </body>
 </html>
