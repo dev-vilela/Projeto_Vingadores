@@ -11,35 +11,33 @@ body{
 }
 
 h1{
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 h2{
-    font-size: 0.8em;
+    font-size: 1em;
 }
  
 h3{
-    font-size: 0.9em;
+    font-size: 0.7em;
+    color: #22053a;
 }
 
 #aven-background{
     width: 100%;
-    animation: animeScale .7s ease-in-out .4s backwards;
-	-webkit-animation: animeScale .7s ease-in-out .4s backwards;
 }
 
-#logo{
+.logo{
     display: block;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    animation: animeScale .7s ease-in-out .4s backwards;
-	-webkit-animation: animeScale .7s ease-in-out .4s backwards;
+    
 }
 
 .container{
     background-color: #0e325c;
-    margin: 5px;
+    margin: 0px 5px;
 }
 
 .corpo-personagens{
@@ -58,7 +56,7 @@ h3{
 }
 
 
-/*Key Framess*/
+
 
 .personagem{
     list-style: none;
@@ -78,8 +76,8 @@ h3{
 
 .card-personagem{
     margin: 0 auto;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: fit-content;
 }
 
@@ -90,7 +88,7 @@ h3{
 
 .persona{
     text-align: center;
-    padding: 11px;
+    padding: 10px;
     border-radius: 45px;
     margin: 15px;
 }
@@ -98,7 +96,7 @@ h3{
 .persona > h1{
     color: #e06c0d;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.5em;
+    font-size: 1.6em;
     text-transform: uppercase;
     display: block;
 }
@@ -107,13 +105,13 @@ h3{
     text-align: center;
     padding: 10px;
     border-radius: 45px;
-    margin: 14px auto;
+    margin: 15px auto;
 }
 
 .ator > h2{
     color: #e06c0d ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     text-transform: uppercase;
     display: block;
 }
@@ -127,7 +125,7 @@ h3{
 .sobre > p {
     color: #e06c0d ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.2em;
+    line-height: 1.3em;
     padding-bottom: 8px;
 }
 
@@ -147,7 +145,7 @@ h3{
 }
 
 @media (min-width: 768px) {
-    .nav-bar {
+    .nav-lista {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -317,12 +315,58 @@ h3{
     }
 }
 
-.rodape{
-    margin: 19px auto;
+
+.rodape {
+    margin: 20px auto;
 }
 
+ .social {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social a {
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a:hover {
+    transition: .5s;
+    transform: scale(1.1,1.1);
+}
+
+.social a[href*="instagram.com"] {
+    background-image: url(imagem/instagram.png);
+}
+
+.social a[href*="youtube.com"] {
+	background-image: url(imagem/YouTube.png);
+}
+
+#direitos {
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Exo 2', 'Raleway', sans-serif;
+}
+
+#direitos a {
+    color: #ff7e00;
+}
+
+
+
+/*
 footer{
-    background-color: #12122efd;
+   
     color: #babd11;
     text-align: center;
     font-size: 0.8em;
@@ -330,16 +374,20 @@ footer{
 }
 
 footer > a {
+    width: 32px;
+    height: 32px;
     color: #babd11;
+    background-repeat: no-repeat;
     font-weight: bolder;
     text-decoration: none;
+    text-indent: -9999px;
 }
 
 footer a:hover{
     text-decoration: underline;
     color: #1e4faa;
 }
-
+*/
 
 
 
